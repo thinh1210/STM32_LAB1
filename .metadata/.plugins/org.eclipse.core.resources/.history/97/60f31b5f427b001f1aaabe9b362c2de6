@@ -97,11 +97,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
   	  //int counter=0;
-  create_state_Q2();
+  create_state_();
   while (1)
   {
-	  Q2_run();
-	  HAL_Delay(1000);
+
+
 	  /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
