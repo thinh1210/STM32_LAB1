@@ -125,7 +125,6 @@ void lane2(){
 			break;
 	}
 }
-
 void create_state_q3(){
 	LED_RED_1_on();
 	LED_GREEN_1_off();
