@@ -101,7 +101,7 @@ int main(void)
   while (1)
   {
 	q1_run();
-	HAL_Delay(1000);
+	HAL_Delay(time_delay);
 
 	  /* USER CODE END WHILE */
 
