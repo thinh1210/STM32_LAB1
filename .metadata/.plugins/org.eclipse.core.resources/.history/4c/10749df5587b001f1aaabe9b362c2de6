@@ -100,9 +100,17 @@ int main(void)
   create_state();
   while (1)
   {
-	  //test_sequence();
-	 ex10();
-	 HAL_Delay(time_delay);
+//	  display7SEG(count_q3_1); // display for question
+//	  HAL_Delay(time_delay);
+//	  q3_run(); // ex5= ex3+ex4
+
+//	 if(counter>=10) counter=0;
+//	 display7SEG(counter++);
+//	 HAL_Delay(time_delay);
+
+	  ex10();
+	  HAL_Delay(time_delay);
+
 	  /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

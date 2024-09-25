@@ -97,12 +97,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
   	  //int counter=0;
-  create_state();
+
   while (1)
   {
 	  //test_sequence();
 	 ex10();
-	 HAL_Delay(time_delay);
+	 HAL_Delay(1000);
 	  /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
