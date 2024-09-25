@@ -19,8 +19,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
-#include <Q1.h>
-#define time_delay 		1000
+#include <Q5.h>
+#define time_delay 		50
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -100,8 +100,16 @@ int main(void)
   create_state();
   while (1)
   {
-	q1_run();
-	HAL_Delay(time_delay);
+//	  display7SEG(count_q3_1); // display for question
+//	  HAL_Delay(time_delay);
+//	  q3_run(); // ex5= ex3+ex4
+
+//	 if(counter>=10) counter=0;
+//	 display7SEG(counter++);
+//	 HAL_Delay(time_delay);
+
+	  ex10();
+	  HAL_Delay(time_delay);
 
 	  /* USER CODE END WHILE */
 
