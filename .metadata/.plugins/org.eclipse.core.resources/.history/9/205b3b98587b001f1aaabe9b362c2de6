@@ -17,9 +17,9 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <Q678910.h>
 #include "main.h"
 
+#include <Q5.h>
 #define time_delay 		50
 
 /* Private includes ----------------------------------------------------------*/
