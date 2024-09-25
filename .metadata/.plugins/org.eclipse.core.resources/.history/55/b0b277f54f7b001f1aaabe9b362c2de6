@@ -19,7 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
-#include <Q4.h>
+#include <Q5.h>
 #define time_delay 		50
 
 /* Private includes ----------------------------------------------------------*/
@@ -96,14 +96,20 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
-  	  int counter=0;
-
+  	  //int counter=0;
+  create_state();
   while (1)
   {
-	  if(counter>=10) counter = 0;
-	  display7SEG(counter);
-	  HAL_Delay(1000);
+//	  display7SEG(count_q3_1); // display for question
+//	  HAL_Delay(time_delay);
+//	  q3_run(); // ex5= ex3+ex4
 
+//	 if(counter>=10) counter=0;
+//	 display7SEG(counter++);
+//	 HAL_Delay(time_delay);
+
+	  ex10();
+	  HAL_Delay(time_delay);
 
 	  /* USER CODE END WHILE */
 

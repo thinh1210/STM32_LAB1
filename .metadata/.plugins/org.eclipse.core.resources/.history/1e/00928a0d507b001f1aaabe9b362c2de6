@@ -27,6 +27,7 @@ void test(){
 	HAL_GPIO_WritePin(GPIOA, array_seg_pin[4], SET);
 	HAL_GPIO_WritePin(GPIOA, array_seg_pin[5], SET);
 	HAL_GPIO_WritePin(GPIOA, array_seg_pin[6], SET);
+
 	HAL_GPIO_WritePin(GPIOA, array_seg_pin[inter], RESET);
 	inter--;
 	if(inter<0){
